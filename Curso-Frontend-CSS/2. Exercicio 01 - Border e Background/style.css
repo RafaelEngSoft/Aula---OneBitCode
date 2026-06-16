@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/C360_2012-11-19-17-59-02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #248030;
+    color: #fff;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+header h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+header p{
+    font-size: 18px;
+}
+
+main{
+    background-color:  #ffff8c ;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+main section{
+    margin-bottom: 20px;
+    
+}
+
+main section h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+main section p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+main section a{
+    color: #248030;
+}
+
+#contact button{
+    background-color: #248030;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 10px;
+}
+
+#contact button:hover{
+    background-color: #1b6022;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #fff;
+    margin: 20px 10px;
+    border-radius: 4px;
+    padding: 5px;
+}

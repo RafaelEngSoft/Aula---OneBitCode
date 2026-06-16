@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 20px;    
+}
+
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+ul li{
+    background-color: #221f23;
+    color: #fff;
+    padding: 10px 20px 80px ;
+    list-style: none;
+    margin: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;    
+}
+
+.selected{
+    background-color: #343036;
+    border: 2px solid #0088d6;
+}
+
+.hidden{
+    display: none;
+}
