@@ -36,3 +36,4 @@ console.log(outros)
 // CONCAT: Concatemar ou Juntas elementos dentro da string
 const sociedade = hobbits.concat(outros, "Boromir")
 console.log(sociedade)
+
